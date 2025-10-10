@@ -1,0 +1,390 @@
+#header{
+            color: #FFFFFF;
+            background-color: black;
+            padding: 10px;
+        }
+
+ #header a, #ffooter a{
+    text-decoration: none;
+    color: #FFFFFF;
+ }
+
+        @font-face {
+            font-family: "MyFont";
+            src: url(PlayfairDisplay-BoldItalic.ttf);
+        }
+
+
+        h3{
+            font-family: "MyFont";
+        }
+
+        #content{
+            background-image: url(fimages/image\ 82.png);
+            height: 700px;
+        }
+
+        #rec{
+            background-image: url(images/Rectangle\ 968.png);
+            height: 590px;
+            color: #FFFFFF;
+        }
+
+
+        #rec button{
+           background-color: #8DEB02;
+        }
+
+        #footer{
+            background-color: #487800;
+            color: #FFFFFF;
+            padding: 3px;
+      
+        }
+
+        #footer button{
+        color: #FFFFFF;
+        border-radius: 20px;
+        padding-top: 5px;
+        margin: 7px;
+        }
+
+
+
+        #arrival{
+           padding-top: 20px;
+           height: 400px;
+        }
+
+
+        #arrival img{
+            width: 100%;
+            height: 300px;
+        }
+
+
+        #collection p{
+            width: 40%;
+        }
+
+
+        #frame1,#frame2,#frame3{
+            padding-top: 50px;
+        }
+
+          #frame2,#frame3{
+            height: 700px;
+        }
+
+
+        #frame2 img, #frame3 img{
+            height: 500px;
+        }
+
+        #frame2 figcaption, #frame3 figcaption{
+            padding-left: 10px;
+        }
+
+        figcaption{
+            padding-left: 70px;
+        }
+       
+#home p{
+    width: 50%;
+}
+
+
+
+#frame4, #frame5, #frame6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%; 
+}
+
+
+#frame5 {
+  background-color: #423228;
+  color: #fff;
+  padding: 20px;
+}
+
+
+#frame5 p {
+  margin-left: 230px;  
+}
+
+
+#frame4 img,
+#frame5 img,
+#frame6 img {
+  width: 100%;  
+  height: auto; 
+}
+
+
+
+#table{
+    padding-top: 30px;
+}
+
+
+#pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;   /* two equal columns */
+  grid-gap: 10px;                  /* space between images */
+}
+
+#pics img {
+  width: 100%;    
+  height: 300px;
+  display: block;
+}
+
+/* Make the last image span across both columns */
+#pics img:last-child {
+  grid-column: span 2;
+}
+
+
+#bed{
+    background-color: black;
+    color: #FFFFFF;
+    padding-top: 30px;
+    height: 650px;
+}
+
+
+#bed p{
+    width: 40%;
+}
+
+
+#bed img{
+     width: 100%;  
+  height: auto; 
+
+
+}
+
+
+
+#new{
+    background-color: #ffffff;
+    padding-top: 40px;
+    height: fit-content;
+
+}
+
+
+#new p{
+    width: 40%;
+}
+
+
+#new img{
+     width: 100%;  
+  height: auto; 
+
+
+}
+
+
+#trans{
+    background-color: black;
+    color: #FFFFFF;
+ margin-top: 20px;
+ border-radius: 6px;
+ padding: 30px;
+}
+
+
+
+#tran{
+    background-color: black;
+    color: #FFFFFF;
+ margin-top: 20px;
+ border-radius: 6px;
+ padding: 30px;
+}
+
+
+
+    #collect{
+      display: flex;
+      padding: 15px;
+    }
+
+ #collect h4{
+  font-size: 30px;
+ }
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 450px;
+    background: #f0f0ee;
+      border-radius: 16px;
+      padding: 30px;
+        margin: 10px;
+  transition: all 0.3s ease;
+
+        
+    }
+
+.card.faded {
+  opacity: 0.3;
+}
+
+
+.card.active {
+  opacity: 1;
+  transform: scale(1.05);   /* slight zoom to highlight */
+
+}
+
+
+    .card-content h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 0.405);
+    }
+
+    .arrow {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #222;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #222;
+      font-size: 18px;
+
+    }
+
+    .card img {
+      height: 200px;
+
+    }
+
+
+    #footwrapper{
+  display: flex;
+  flex-direction: column; 
+  height: 220px;
+  background-color: #222;
+  width: 100vw;  
+  margin-top: 10px;
+
+    }
+
+.container-fluid #footwrapper {
+  margin-left: -12px;   /* counteract Bootstrap padding */
+  margin-right: -12px;
+}
+
+#ffooter{
+       color: #FFFFFF;
+            padding: 10px;
+            
+}
+
+
+#logs img{
+  width: 40px;
+  height: 25px;
+
+}
+
+
+#logs{
+   display: flex;
+  gap: 5px; 
+  justify-content: right;
+    margin: 10px 0;
+  border-bottom: 1px solid rgba(172, 156, 156, 0.865);
+  margin-top: 80px;
+  padding: 10px;
+}
+
+
+#nure{
+  text-align: center;
+  color: #fff;
+}
+
+
+#login{
+  text-align: center;
+   width: 400px;
+   height: 300px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 30px 25px;
+   background: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+ margin-top: 200px;
+ margin-left: 500px;
+
+}
+
+
+#login input,#login button{
+   border-radius: 6px;
+   width: 300px;
+   height: 40px;
+}
+
+
+#login button{
+  background-color: RGB(45, 88, 90);
+}
+
+
+#login a{
+  color:RGB(45, 88, 90);
+  cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+#signup{
+  text-align: center;
+   width: 400px;
+   height: fit-content;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 30px 25px;
+   background: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+ margin-top: 100px;
+ margin-left: 500px;
+
+}
+
+
+#signup input,#signup button{
+   border-radius: 6px;
+   width: 300px;
+   height: 40px;
+}
+
+
+#signup button{
+  background-color: RGB(45, 88, 90);
+}
+
+
+#signup a{
+  color:RGB(45, 88, 90);
+  cursor: pointer;
+  text-decoration: none;
+}
